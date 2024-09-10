@@ -22,10 +22,4 @@ router.get('/heroes/:id', async (req, res) => {
     }
 });
 
-router.post('/heroes', async (req, res) => {
-    const hero = new Hero(req.body.id, req.body.name, req.body.line, req.body.isPick);
-    await heroService.saveHero(hero);
-    res.json(hero);
-});
-
 module.exports = router;
