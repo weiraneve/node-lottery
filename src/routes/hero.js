@@ -1,6 +1,5 @@
 const express = require('express');
 const pool = require('../config/database');
-const Hero = require('../models/hero');
 const HeroRepository = require('../repositories/hero');
 const HeroService = require('../services/hero');
 
