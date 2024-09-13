@@ -7,4 +7,4 @@ class Hero {
     }
 }
 
-module.exports = Hero;  
+module.exports = Hero;
